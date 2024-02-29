@@ -1,0 +1,27 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(22, 13, 1);
+    margin-top: 10px;
+}
+
+h1{
+    background-image: url(../img/body-background.png);
+    margin-top: 10px;
+    text-align: center;
+}
+
+h2{
+    border-bottom: 2px groove #ccc;
+    margin-top: 10px;
+}
+
+figure{
+    background-color: burlywood;
+    border: 1px solid #c0c;
+    text-align: center;
+    margin-top: 10px;
+}
+
+figcaption{
+    font-style: italic;
+}
