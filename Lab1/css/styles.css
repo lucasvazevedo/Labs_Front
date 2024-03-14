@@ -45,3 +45,8 @@
     text-align: justify;
   
  }
+
+ #diferenciais{
+    text-align: center;
+    color: var(--cor-base);
+ }
