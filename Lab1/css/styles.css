@@ -3,6 +3,7 @@
    --cor-fundo-img: #f2eded;
    --cor-borda-img: #ccc;
    --cor-titulo-especial: #8a8686cc;
+   --cor-menu: #0036;
 }
 
 body {
@@ -57,13 +58,13 @@ p {
    width: 550px;
 }
 
-#rodape {
+.rodape {
    color: #777;
    margin: 30px 0;
    padding: 30px 0;
 }
 
-#rodape img {
+.rodape img {
    margin-right: 30px;
    vertical-align: middle;
    width: 94px;
@@ -107,22 +108,32 @@ div {
 
 .sacola {
    background: url(../img/sacola.png) no-repeat top right;
-
    font-size: 14px;
    padding-right: 35px;
    text-align: right;
    width: 140px;
+   padding-top: 8px;
 }
 
-.menu-opcoes ul {
+.menu-opcoes ul{
    font-size: 15px;
 }
 
+.menu-opcoes ul li {
+   display: inline;
+   margin-left: 20px;
+}
+
 .menu-opcoes a {
-   color: #003366;
+   color: var(--cor-menu);
 }
 
 body {
-   color: #333;
+   color: var(--cor-base);
    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+}
+
+.container {
+   margin: 0 auto;
+   width: 90%;
 }
