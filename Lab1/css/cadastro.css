@@ -1,35 +1,49 @@
-/* Estilos para o elemento body */
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
 body {
-    background-color: #f2f2f2;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    width: 60%;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/* Estilos para o elemento h1 */
-h1 {
-    color: #333;
-    font-size: 24px;
-    text-align: center;
+fieldset {
+    margin-bottom: 10px;
+    background-color: lightgray;
+    border-radius: 6px;
 }
 
-/* Estilos para o elemento p */
-p {
-    color: #666;
-    font-size: 16px;
-    line-height: 1.5;
-    margin-bottom: 20px;
+fieldset input,
+select {
+    font-size: medium;
 }
 
-/* Estilos para o elemento a */
-a {
-    color: #007bff;
-    text-decoration: none;
+fieldset legend {
+    font-size: large;
+    font-weight: bold;
 }
 
-/* Estilos para o elemento .container */
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
+.grid-button-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 5px 0px;
+}
+
+.grid-button-container input {
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+.grid-button-container input[type=submit] {
+    background-color: lightblue;
+}
+
+.grid-button-container input[type=reset] {
+    background-color: lightcoral;
 }
