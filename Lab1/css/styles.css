@@ -178,3 +178,11 @@ footer{
    top: 12px;
    right: 0;
 }
+
+.menu-opcoes a:hover{
+   color: #f5f5f5;
+}
+
+.menu-opcoes a:active{
+   color: #e5e5e5;
+}
