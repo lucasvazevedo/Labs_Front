@@ -48,8 +48,12 @@ header + section + p{
     text-indent: 0;
 }
 
-p:first-line {
+p::first-line {
     font-variant: small-caps;
+}
+
+h1 + p {
+    text-indent: 0;
 }
 
 #centro-distribuicao {
