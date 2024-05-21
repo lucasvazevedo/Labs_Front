@@ -109,6 +109,7 @@ header {
    width: 135px;
    margin: 2px;
    padding-bottom: 10px;
+   transition: 0.7s ease-out;
 }
  
 .painel h2 {
@@ -125,7 +126,18 @@ header {
    text-decoration: none;
    text-align: center;
 }
- 
+
+.painel li:hover {
+   background-color: var(--cor--painel-novidades);
+   box-shadow: 0 0 5px #413131;
+   transition: 0.4s ease-in;
+   transform: scale(1.2) rotate(-2deg);
+}
+
+.painel li:nth-child(2n):hover{
+   transform: scale(1.2) rotate(2deg);
+}
+
 .novidades {
    background: linear-gradient(23deg, rgb(91, 84, 207) 0%, rgb(93, 93, 231) 42%, rgba(0,212,255,1) 100%);
    float: left
